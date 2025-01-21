@@ -1,2 +1,6 @@
-sphinx
-sphinx_rtd_theme
+cd docs
+echo "sphinx" >> requirements.txt
+echo "sphinx_rtd_theme" >> requirements.txt
+git add requirements.txt
+git commit -m "Add requirements.txt for Read the Docs"
+git push origin main
